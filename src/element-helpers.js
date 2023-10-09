@@ -67,3 +67,24 @@ export function queryChild(elementId) {
         },
     };
 }
+
+/**
+ * @function
+ * @description Replaces the button label (and disable it) with a custom text until you re-enable it.
+ * @param {$w.Button} button
+ * @param {string} message
+ * @returns {function}
+ */
+export function buttonPreloader(button, message) {
+    const previousLabel = button.label;
+
+    button.disable();
+    button.label = message;
+
+    const reEnable = () => {
+        button.label = previousLabel;
+        button.enable();
+    }
+
+    return reEnable;
+}
