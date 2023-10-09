@@ -11,7 +11,11 @@
     "url": "git+https://github.com/ExWeiv/velodash.git"
   },
   "keywords": [
-    "velodash"
+    "velodash",
+    "velo",
+    "wix",
+    "lodash",
+    "exweiv"
   ],
   "author": "ExWeiv",
   "license": "ISC",
