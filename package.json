@@ -1,0 +1,22 @@
+{
+  "name": "velodash",
+  "version": "1.0.0",
+  "description": "Library for Velo Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExWeiv/velodash.git"
+  },
+  "keywords": [
+    "velodash"
+  ],
+  "author": "ExWeiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExWeiv/velodash/issues"
+  },
+  "homepage": "https://github.com/ExWeiv/velodash#readme"
+}
