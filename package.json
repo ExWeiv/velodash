@@ -1,6 +1,6 @@
 {
   "name": "@exweiv/velodash",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Library for Velo Tools",
   "main": "index.js",
   "scripts": {
